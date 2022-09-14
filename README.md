@@ -37,6 +37,12 @@ source env/bin/activate   (On Windows use `env\Scripts\activate`)
 pip install -r requirements.txt
 ```
 
+- Migrate database
+
+```python
+python manage.py migrate
+```
+
 - Run the api
 
 ```python
